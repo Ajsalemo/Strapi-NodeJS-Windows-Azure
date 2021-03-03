@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  host: "localhost", 
+  host: "0.0.0.0", 
   // When deployed, listen to the PORT variable - else when running locally, listen to 1337
   port: process.env.PORT || '1337',
   admin: {
